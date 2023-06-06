@@ -1,0 +1,235 @@
+/* CSS reset */
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+
+
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 2;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+h3 {
+    font-size: 1.25rem;
+    line-height: 1.5;
+
+}
+
+/* Utility classes */
+.container {
+    padding: 5% 15%;
+}
+
+.flex {
+    display: flex;
+
+}
+
+hr {
+    height: 10px;
+    border: none;
+    border-top: 10px solid #737373;
+}
+
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.p-btn {
+
+    background-color: red;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+
+}
+
+.s-btn {
+
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    width: 100px;
+
+}
+
+.email-box {
+    width: 45%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-right: 0;
+}
+
+
+/* Title section */
+#title {
+    background-color: #000;
+
+    height: 75vh;
+    /* filter: brightness(50%); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(/images/IN-en-20221114-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.nav-child img {
+    width: 200px;
+    filter: invert(11%) sepia(95%) saturate(4835%) hue-rotate(356deg) brightness(89%) contrast(99%);
+
+
+}
+
+.nav {
+
+    padding: 2% 3%;
+    justify-content: space-between;
+}
+
+.btn-spacing {
+    justify-content: space-between;
+}
+
+.p-heading {
+    font-size: 5rem;
+    justify-content: center;
+    padding: 2% 10%;
+    line-height: 1.2;
+}
+
+.s-heading {
+
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+
+
+}
+
+.t-heading {
+    margin-top: 1%;
+}
+
+.mod-btn {
+    width: 10%;
+    margin: 0;
+    height: 5.5rem;
+    font-size: large;
+
+}
+
+/* features section */
+.features {
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    /* column-gap: 5%; */
+
+}
+
+.items {
+    padding: 2% 5%;
+}
+
+.f-primary {
+    font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.f-secondary {
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* fta section */
+
+.fta-parent {
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 3% 20%;
+}
+
+.fta-child {
+    background-color: #3d3c3c;
+    padding: 1% 4%;
+    font-size: 2rem;
+    text-align: left;
+
+}
+
+/* footer section */
+
+
+.footer-parent {
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.footer-child {
+    flex-direction: column;
+    text-align: left;
+
+
+}
+
+.footer-sub-child {
+    margin: 10px;
+
+}
+
+.new-link {
+    color: #737373;
+    text-decoration: none;
+}
+
+.new-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+
+    color: #737373;
+    text-align: left;
+
+}
+
+.h3 {
+    padding-left: 14%;
+}
+
+.footer-btn {
+    margin-left: 14%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+}
